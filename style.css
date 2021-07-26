@@ -1,0 +1,54 @@
+body {
+    font-size: 20px;
+}
+
+strong{
+    font-style: italic;
+    font-weight: 100;
+}
+
+em{
+    font-style: normal;
+    font-weight: bold;
+}
+
+.linux{
+    font-size: 1.4em;
+}
+
+.bash{
+    font-size: 1.2em;
+}
+
+.js{
+    font-size: 1em;
+}
+
+.html{
+    font-size: 0.9em;
+}
+
+.css{
+    font-size: 0.8em;
+}
+
+.sr{
+    font-size: 0.7em;
+}
+
+.tcpip{
+    font-size: 0.6em;
+}
+
+.regex{
+    font-size: 0.5em;
+}
+
+
+#nome{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#descricao{
+    font-family: Arial, Helvetica, sans-serif;
+}
