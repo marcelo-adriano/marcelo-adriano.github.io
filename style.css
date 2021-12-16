@@ -1,72 +1,71 @@
 body {
-    font-size: 20px;
+  font-size: 20px;
 }
 
-div.fotodescricao{
-    height: 220px;
+div.fotodescricao {
+  height: 220px;
 }
 
-img#foto{
-    float: left;
-    height: 200px;
-    margin-right: 20px;
-    padding: 10px;
-    background-color: azure;
+img#foto {
+  float: left;
+  height: 200px;
+  margin-right: 20px;
+  padding: 10px;
+  background-color: azure;
 }
 
-strong{
-    font-style: italic;
-    font-weight: 100;
+strong {
+  font-style: italic;
+  font-weight: 100;
 }
 
-em{
-    font-style: normal;
-    font-weight: bold;
+em {
+  font-style: normal;
+  font-weight: bold;
 }
 
-ul#habilidades li:nth-of-type(odd){
-    color: darkblue;
+ul#habilidades li:nth-of-type(odd) {
+  color: darkblue;
 }
 
-.linux{
-    font-size: 1.4em;
+.linux {
+  font-size: 1.4em;
 }
 
-.bash{
-    font-size: 1.2em;
+.bash {
+  font-size: 1.2em;
 }
 
-.js{
-    font-size: 1em;
+.js {
+  font-size: 1em;
 }
 
-.html{
-    font-size: 0.9em;
+.html {
+  font-size: 0.9em;
 }
 
-.css{
-    font-size: 0.8em;
+.css {
+  font-size: 0.8em;
 }
 
-.sr{
-    font-size: 0.7em;
+.sr {
+  font-size: 0.7em;
 }
 
-.tcpip{
-    font-size: 0.6em;
+.tcpip {
+  font-size: 0.6em;
 }
 
-.regex{
-    font-size: 0.5em;
+.regex {
+  font-size: 0.5em;
 }
 
-
-#nome{
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
+#nome {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
 }
 
-#descricao{
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 40px;
+#descricao {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 40px;
 }

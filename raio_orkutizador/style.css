@@ -1,268 +1,270 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background-color: #d8e2fb;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Open Sans', sans-serif;
+body {
+  background-color: #d8e2fb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
 }
 
 a {
-    color: #276b76;
+  color: #276b76;
 }
 
-li, a {
-    font-weight: 500;
-    font-size: 16px;
-    text-decoration: none;
-    list-style: none;
+li,
+a {
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  list-style: none;
 }
 
 .header {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    background-color: #679bd7;
-    height: 38px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #679bd7;
+  height: 38px;
 }
 
 .header nav {
-    width: 1100px;
-    margin-left: auto;
-    margin-right: auto;
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.logo{
-    cursor: pointer;
+.logo {
+  cursor: pointer;
 }
-
 
 .header li {
-    display: inline-block;
-    color: #d6edfd;
-    vertical-align: middle;
-    margin: 0 5px;
-    font-size: 14px;
+  display: inline-block;
+  color: #d6edfd;
+  vertical-align: middle;
+  margin: 0 5px;
+  font-size: 14px;
 }
 
-.header li:nth-child(1){
-    margin: 0 5px 0 0;
+.header li:nth-child(1) {
+  margin: 0 5px 0 0;
 }
 
 /* Corpo do Conteúdo */
 
-.corpoDoConteudo{
-    width: 1100px;
-    margin-left: auto;
-    margin-right: auto;
+.corpoDoConteudo {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hr {
-    margin: 2px 0;
+  margin: 2px 0;
 }
 
-/* Sidebar --- Foto e nome do perfil*/
-
+/* Sidebar --- Foto e nome do perfil */
 
 .sidebarPerfil {
-    width: 15%;
-    background-color: #fffbf8;
-    display: float;
-    float: left;
-    margin-top: 10px;
-    margin-right: 5px;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px gray;
+  width: 15%;
+  background-color: #fffbf8;
+  display: float;
+  float: left;
+  margin-top: 10px;
+  margin-right: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px gray;
 }
 
 .fotoPerfil {
-    width: 100%;
-    border-radius: 3px;
+  width: 100%;
+  border-radius: 3px;
 }
 
 .sidebarPerfil a {
-    font-size: 14px;
-    font-weight: 400;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .sidebarPerfil div {
-    margin: 5px 0;
+  margin: 5px 0;
 }
 
 .resumoPerfil p {
-    font-size: 14px;
-    color: gray;
+  font-size: 14px;
+  color: gray;
 }
 
 .sidebarPerfil ul {
-    margin: 5px 0;
+  margin: 5px 0;
 }
 
+/* stylelint-disable-next-line no-descending-specificity */
 .sidebarPerfil li {
-    padding: 3px 10px;
-    font-size: 14px;
+  padding: 3px 10px;
+  font-size: 14px;
 }
 
 .adicionarDenunciar a {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 #mais {
-    margin-left: 25px;
+  margin-left: 25px;
 }
 
 .navSidebar img {
-    width: 14px;
-    margin-right: 10px;
+  width: 14px;
+  margin-right: 10px;
 }
 
-.sidebarPerfil nav ul{
-    border: solid 1px darkgray;
-}
-
-.sidebarPerfil nav li {
-    background-color: #f2f7fd;
-    border-bottom: solid 1px darkgray;
+.sidebarPerfil nav ul {
+  border: solid 1px darkgray;
 }
 
 .sidebarPerfil nav li:last-child {
-    background-color: #f2f7fd;
-    border-bottom: none;
+  background-color: #f2f7fd;
+  border-bottom: none;
 }
 
-/* Main --- Informações do Perfil*/
+/* stylelint-disable-next-line no-descending-specificity */
+.sidebarPerfil nav li {
+  background-color: #f2f7fd;
+  border-bottom: solid 1px darkgray;
+}
 
-.mainPerfil{
-    width: 53%;
-    background-color: #fffbf8;
-    display: inline-block;
-    margin: 10px 5px 0 5px;
-    padding: 10px;
-    border-radius: 10px 60px 10px 10px;
-    box-shadow: 2px 2px 3px gray;
+/* Main --- Informações do Perfil */
+
+.mainPerfil {
+  width: 53%;
+  background-color: #fffbf8;
+  display: inline-block;
+  margin: 10px 5px 0;
+  padding: 10px;
+  border-radius: 10px 60px 10px 10px;
+  box-shadow: 2px 2px 3px gray;
 }
 
 .mainPerfil h1 {
-    font-size: 31px;
-    font-weight: 400;
-    letter-spacing: -2px;
+  font-size: 31px;
+  font-weight: 400;
+  letter-spacing: -2px;
 }
 
 .statusTable {
-    font-size: 10px;
+  font-size: 10px;
 }
 
-.statusTable td{
-    width: 50px;
+.statusTable td {
+  width: 50px;
 }
 
 .statusTable img {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 .infoTable {
-    margin-top: 10px;
-    width: 100%;
-    border-collapse: collapse;
+  margin-top: 10px;
+  width: 100%;
+  border-collapse: collapse;
 }
 
 .infoTable td {
-    border: 0;
-    padding: 2px 3px;
-    font-size: 14px;
+  border: 0;
+  padding: 2px 3px;
+  font-size: 14px;
 }
 
 .informacoesTitulo {
-    color: grey;
-    text-align: right;
-    width: 30%;
+  color: grey;
+  text-align: right;
+  width: 30%;
 }
 
 .infoTable tr:nth-child(odd) {
-    background-color: #ddedfc;
+  background-color: #ddedfc;
 }
 
 .infoTable tr:nth-child(even) {
-    background-color: #eff8ff;
+  background-color: #eff8ff;
 }
 
-/* aside --- Section de amigos e section de comunidades*/
+/* aside --- Section de amigos e section de comunidades */
 
-.asideAmigosEComunidades{
-    width: 30%;
-    display: float;
-    float: right;
-    margin-left: 5px;
+.asideAmigosEComunidades {
+  width: 30%;
+  display: float;
+  float: right;
+  margin-left: 5px;
 }
 
-.asideAmigosEComunidades section{
-    padding: 10px;
-    margin-top: 10px;
-    background-color: #fffbf8;
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px gray;
+.asideAmigosEComunidades section {
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #fffbf8;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px gray;
 }
 
 .sectionAmigos h2 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .boxAmigos {
-    display: inline-block;
-    width: 100px;
-    height: 120px;
-    margin: 2px 0;
-    background-color: #f0f0f0;
+  display: inline-block;
+  width: 100px;
+  height: 120px;
+  margin: 2px 0;
+  background-color: #f0f0f0;
 }
 
 .boxAmigos img {
-    width: 100%;
+  width: 100%;
 }
 
 .boxAmigos a {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .sectionComunidades h2 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .boxComunidades {
-    display: inline-block;
-    width: 100px;
-    height: 120px;
-    margin: 2px 0;
-    background-color: #f0f0f0;
+  display: inline-block;
+  width: 100px;
+  height: 120px;
+  margin: 2px 0;
+  background-color: #f0f0f0;
 }
 
 .boxComunidades img {
-    width: 100%;
+  width: 100%;
 }
 
 .boxComunidades a {
-    font-size: 14px;
+  font-size: 14px;
 }
 
-/*Footer */
+/* Footer */
 
 footer {
-    clear: both;
-    background-color: #679bd7;
-    height: 2.5em;
-    width: 100%;
-    text-align: center;
-    bottom: 0;
-    margin-top: 10px;
+  clear: both;
+  background-color: #679bd7;
+  height: 2.5em;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  margin-top: 10px;
 }
 
-footer p{
-    color: #d6edfd;
+/* stylelint-disable-next-line no-descending-specificity */
+footer p {
+  color: #d6edfd;
 }
