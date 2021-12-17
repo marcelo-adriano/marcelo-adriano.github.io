@@ -1,71 +1,76 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
-  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(24 24 24);
+  color: silver;
+  font-family: sans-serif;
 }
 
-div.fotodescricao {
-  height: 220px;
+a {
+  text-decoration: none;
 }
 
-img#foto {
-  float: left;
-  height: 200px;
-  margin-right: 20px;
-  padding: 10px;
-  background-color: azure;
+a:visited {
+  color: silver;
 }
 
-strong {
-  font-style: italic;
-  font-weight: 100;
+/* Header */
+
+.lista-header {
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
 }
 
-em {
-  font-style: normal;
-  font-weight: bold;
+.lista-header li {
+  min-width: 5em;
+  text-align: center;
+  padding: 5px 0;
+  border: 2px solid silver;
+  border-radius: 1em;
 }
 
-ul#habilidades li:nth-of-type(odd) {
-  color: darkblue;
+/* Main */
+
+.main-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
-.linux {
-  font-size: 1.4em;
-}
+/* Apresentação */
 
-.bash {
-  font-size: 1.2em;
-}
-
-.js {
-  font-size: 1em;
-}
-
-.html {
-  font-size: 0.9em;
-}
-
-.css {
-  font-size: 0.8em;
-}
-
-.sr {
-  font-size: 0.7em;
-}
-
-.tcpip {
-  font-size: 0.6em;
-}
-
-.regex {
-  font-size: 0.5em;
-}
-
-#nome {
-  font-family: "Times New Roman", Times, serif;
+#presentation {
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   text-align: center;
 }
 
-#descricao {
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 40px;
+.frase-presentation {
+  font-size: 3em;
+}
+
+.frase-presentation strong {
+  font-size: 1.8em;
+}
+
+/* .links-presentation {
+
+} */
+
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 24px;
+  }
 }
