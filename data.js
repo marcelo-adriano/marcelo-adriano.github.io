@@ -26,7 +26,7 @@ export const MY_SKILLS = [
   },
   {
     name: "Linux",
-    description: "O kernel mais famoso do mundo. Habilidades que gostaria de enfatizar são o dominio do terminal e criação de scripts em bash.",
+    description: "O kernel mais famoso do mundo. Habilidades que gostaria de enfatizar são o domínio do terminal e criação de scripts em bash.",
     image: "https://www.oficinadanet.com.br/imagens/post/25027/tux.png",
   },
 ];

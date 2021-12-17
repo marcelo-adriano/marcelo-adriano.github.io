@@ -60,9 +60,13 @@ a:hover {
   }
 }
 
-#ferramentas-e-linguagens {
+.sections-non-presentation {
   min-height: 60vh;
   padding: 20px 10%;
+}
+
+#ferramentas-e-linguagens,
+#forma-de-contato {
   background-color: lightgray;
   color: black;
 }
