@@ -1,42 +1,23 @@
+:root {
+  --trybe-green: #2fc18c;
+}
+
 * {
   margin: 0;
   box-sizing: border-box;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(24 24 24);
-  color: silver;
-  font-family: sans-serif;
-}
-
 a {
   text-decoration: none;
+  color: silver;
 }
 
 a:visited {
   color: silver;
 }
 
-/* Header */
-
-.lista-header {
-  margin-top: 10px;
-  margin-bottom: 0;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  list-style: none;
-}
-
-.lista-header li {
-  min-width: 5em;
-  text-align: center;
-  padding: 5px 0;
-  border: 2px solid silver;
-  border-radius: 1em;
+a:hover {
+  font-weight: bolder;
 }
 
 /* Main */
@@ -65,12 +46,36 @@ a:visited {
   font-size: 1.8em;
 }
 
-/* .links-presentation {
+#trybe-link {
+  color: var(--trybe-green);
+}
 
-} */
+#trybe-link:hover {
+  font-weight: bolder;
+}
 
 @media screen and (min-width: 1024px) {
   body {
     font-size: 24px;
   }
+}
+
+#ferramentas-e-linguagens {
+  min-height: 60vh;
+  padding: 20px 10%;
+  background-color: lightgray;
+  color: black;
+}
+
+.skills-image {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  margin: 20px auto;
+}
+
+.carousel-indicators {
+  margin-bottom: -1.5rem;
 }
