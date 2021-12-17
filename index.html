@@ -3,86 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Marcelo Adriano</title>
   </head>
-  <body>
-    <header class="main-header">
-      <ul class="lista-header">
-        <li>Home</li>
-        <li>Skills</li>
-        <li>Projetos</li>
-        <li>Contato</li>
-      </ul>
-    </header>
-    <main class="main-container">
-      <section id="presentation">
-        <h1 class="frase-presentation">Oi, eu sou o<br/><strong>Marcelo</strong></h1>
-        <p class="texto-presentation">
-          Pessoa desenvolvedora <strong>Front-End</strong>,<br/> me aprimorando para
-          virar <strong>Full Stack</strong>.<br/>Atualmente, pessoa estudante na
-          <a href="https://www.betrybe.com/">Trybe</a>
-        </p>
-        <div class="links-presentation">
-          <a href="https://github.com/marcelo-adriano/" class="github-link">
-            <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="Github">
-          </a>
-          <a href="https://www.linkedin.com/in/marcelo-gomes-adriano/" class="linkedin-link">
-            <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-          </a>
+  <body class="d-flex h-100 text-center text-white bg-dark">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="mb-auto">
+        <div>
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link text-white" href="#presentation">Home</a>
+            <a class="nav-link text-white" href="#ferramentas-e-linguagens">Skills</a>
+            <a class="nav-link text-white" href="#projetos">Projetos</a>
+            <a class="nav-link text-white" href="#forma-de-contato">Contato</a>
+          </nav>
         </div>
-      </section>
-      <section id="ferramentas-e-linguagens">
-        <h2 class="titulo-sessão">Ferramentas e Habilidades</h2>
-        <ul class="lista-habilidades-principal">
-          <li class="item-lista-principal">
-            Linux
-          </li>
-          <li class="item-lista-principal">
-            Git &amp; Github
-          </li>
-          <li class="item-lista-principal">
-            HTML, CSS &amp; JAVASCRIPT
-            <ul class="lista-habilidades-secundario">
-              <li>DOM</li>
-              <li>HOFs</li>
-            </ul>
-          </li>
-          <li class="item-lista-principal">JEST
-            <ul class="lista-habilidades-secundario">
-              <li>Testes Unitarios</li>
-              <li>Testes Assincronos</li>
-              <li>Mock</li>
-            </ul>
-          </li>
-          <li class="item-lista-principal">
-            REACT
-            <ul class="lista-habilidades-secundario">
-              <li>REACT ROUTER</li>
-              <li>React Testing Library (RTL)</li>
-              <li>Context API</li>
-              <li>Hooks</li>
-            </ul>
-          </li>
-          <li class="item-lista-principal">REDUX
-            <ul class="lista-habilidades-secundario">
-              <li>REDUX-THUNK</li>
-            </ul>
-          </li>
-        </ul>
-      </section>
-      <section id="projetos">
-        <h2 class="titulo-sessão">Projetos</h2>
-        <p>Em Breve</p>
-      </section>
-      <section id="forma-de-contato">
-        <h2 class="titulo-sessão">Formas de Contato</h2>
-        <ul class="lista-contatos">
-          <li>LinkedIn</li>
-          <li>Email: marcelo.gomes.adriano@gmail.com</li>
-          <li>WhatsApp</li>
-        </ul>
-      </section>
-    </main>
+      </header>
+      <main class="main-container" class="px-3">
+        <section id="presentation">
+          <h1 class="frase-presentation">Oi, eu sou o<br/><strong>Marcelo</strong></h1>
+          <p class="texto-presentation lead">
+            Pessoa desenvolvedora <strong>Front-End</strong>,<br/> me aprimorando para
+            virar <strong>Full Stack</strong>.<br/>Atualmente, pessoa estudante na
+            <a id="trybe-link" href="https://www.betrybe.com/">Trybe</a>
+          </p>
+          <div class="links-presentation">
+            <a href="https://github.com/marcelo-adriano/" class="github-link">
+              <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="Github">
+            </a>
+            <a href="https://www.linkedin.com/in/marcelo-gomes-adriano/" class="linkedin-link">
+              <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+            </a>
+          </div>
+        </section>
+        <section id="ferramentas-e-linguagens">
+          <h2 class="titulo-sessão">Ferramentas e Habilidades</h2>
+          <div id="skill-carrossel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            
+          </div>
+        </section>
+        <section id="projetos">
+          <h2 class="titulo-sessão">Projetos</h2>
+          <p>Em Breve</p>
+        </section>
+        <section id="forma-de-contato">
+          <h2 class="titulo-sessão">Formas de Contato</h2>
+          <ul class="lista-contatos">
+            <li>LinkedIn</li>
+            <li>Email: marcelo.gomes.adriano@gmail.com</li>
+            <li>WhatsApp</li>
+          </ul>
+        </section>
+      </main>
+    </div>
   </body>
+  <script src="./bootstrap.bundle.min.js"></script>
+  <script type="module" src="./afterLoad.js"></script>
 </html>
+    
