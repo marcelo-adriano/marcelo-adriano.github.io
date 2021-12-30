@@ -30,3 +30,18 @@ export const MY_SKILLS = [
     image: "https://www.oficinadanet.com.br/imagens/post/25027/tux.png",
   },
 ];
+
+export const MY_PROJECTS = [{
+  name: 'Color Guess',
+  description: 'Um jogo de adivinhação de cores. O projeto foi feito em React e utiliza ContextAPI para gerenciar os estados dos componentes e "localstorage" para armazenar a maior pontuação.',
+  image: './imgs/color-guess.png',
+  link: 'https://marcelo-adriano.github.io/guess-color/',
+  github: 'https://github.com/marcelo-adriano/guess-color',
+},
+{
+  name: 'Teste Dois',
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at sapien magna. Suspendisse lobortis, erat sed vestibulum suscipit, libero diam ullamcorper nisi, id egestas nibh metus id nulla.',
+  image: '',
+  link: 'https://www.google.com',
+  github: 'https://github.com',
+},];
